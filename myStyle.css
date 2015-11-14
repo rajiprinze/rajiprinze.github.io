@@ -1,0 +1,43 @@
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: .50;
+  }
+  
+  .main-nav-scrolled {
+    position: fixed, relative;
+    top: 0;
+    width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding-top: 250;
+  }
+.navbar {
+  color : white;
+}
+
+.divHome{
+  background-image: url("http://prn.fm/wp-content/uploads/2015/03/water.jpg");
+  color : white;
+  font-weight : bolder;
+  font-size: xx-large;
+  height: 700px;
+  width : 100%;
+}
+.divAbout{
+  background-color: #40E0D0;
+  height: 700px;
+  width : 100%;
+}
+.divPortfolio{
+  background-color: #F08080;
+  height: 700px;
+  width : 100%;
+}
+.divContact{
+  background-color: #6495ed;
+  height: 700px;
+  width : 100%;
+}
