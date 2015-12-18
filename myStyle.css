@@ -3,41 +3,102 @@
     height: 100px;
     border-radius: .50;
   }
+ul{
+  text-align:right; float : right;  
+}
+li{
+  text-align : right;
+  float:right;
+}
+.bold-text{
+  font-weight : bold;
+  font-size : 40px;
+  font-shadow : 50px;
+}
   
-  .main-nav-scrolled {
-    position: fixed, relative;
-    top: 0;
-    width: 100%;
+  .nav {
+    background-color: #D3D3D3;
+    color : #000000;
   }
+  
+  .button-text {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+.navtext-color{
+  color : #000000;
+  background-color : #999999;
+  font-weight : bold;
+}
+
+.navtext-color:hover{
+  color : white;
+}
   
   body {
     margin: 0;
     padding-top: 250;
   }
-.navbar {
-  color : white;
-}
-
-.divHome{
-  background-image: url("http://prn.fm/wp-content/uploads/2015/03/water.jpg");
-  color : white;
-  font-weight : bolder;
-  font-size: xx-large;
-  height: 700px;
-  width : 100%;
-}
-.divAbout{
-  background-color: #40E0D0;
-  height: 700px;
-  width : 100%;
-}
-.divPortfolio{
-  background-color: #F08080;
-  height: 700px;
-  width : 100%;
-}
-.divContact{
-  background-color: #6495ed;
-  height: 700px;
-  width : 100%;
-}
+  
+  .btn {
+    box-shadow: 0 3px 0 0 #000000;
+    background: #D3D3D3;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-top: -3px;
+    margin-bottom: 3px;
+  }
+  
+  .nav-text {
+    color: white;
+  }
+  
+  .button-text:hover {
+    color: white;
+    background-color: #000000;
+    transform: scale(1.1);
+  }
+  
+  #intro {
+    background: url("http://images8.alphacoders.com/438/438392.jpg");
+    height: 700px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    padding: 100px 0;
+  }
+  
+  #about {
+    background: url("http://www.planwallpaper.com/static/images/HD-Wallpapers1.jpeg");
+    height: 700px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    padding: 100px 0;
+  }
+  
+  #portfolio {
+    background-color: #F08080;
+    ;
+    height: 700px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    padding: 100px 0;
+  }
+  
+  #contact {
+    background-color: #6495ed;
+    height: 700px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    padding: 100px 0;
+  }
