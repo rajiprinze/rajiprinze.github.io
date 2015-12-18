@@ -5,94 +5,112 @@
 <link rel="stylesheet" type="text/css" href="myStyle.css">
 <html>
 <body data-spy="scroll" data-target=".navbar" data-offset="150">
-  <div class="container ">
-    <div class="row">
-      <div class="col-md-12">
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="col-md-12">
-            <div class="navbar-header">
-              <a class="navbar-brand " href="#">Soundarya Rajendran</a>
-            </div>
-            <ul class="nav navbar navbar-nav navbar-fixed-top navbar-inverse ">
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-default" role="navigation">
+        <ul class="nav navbar navbar-nav navbar-fixed-top ">
+          <a class="navbar-brand test-color text-left" href="#">Soundarya Rajendran</a>
+          <li>
+            <a href="#home" class="navtext-color text-right" >Home</a>
+          </li>
+          <li>
+            <a href="#about" class=" navtext-color text-right" >About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="navtext-color text-right" >Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class=" navtext-color text-right" >Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <a name="home"></a>
-    <div class="jumbotron divHome">
+  </div>
+
+  <!-- Home -->
+  <a name="home"></a>
+  <section id="intro" data-speed="6" data-type="background">
+    <div class="container">
       <h2 class="text-center">Soundarya Rajendran</h2>
-      <p align="center">
+      <p align="center" class="bold-text">
         Boldly Code where you have never coded before.
       </p>
-            <div class="row">
-        <div class="col-md-4">
-          <button class="btn btn-block" href="https://www.linkedin.com/in/soundarya-rajendran-52646550" target="_blank"><a href="https://www.linkedin.com/in/soundarya-rajendran-52646550" target="_blank"> LinkedIn</a></button>
-        </div>
-        <div class="col-md-4">
-          <button class="btn btn-block" href="https://github.com/rajiprinze" target="_blank"><a href="https://github.com/rajiprinze" target="_blank"> GitHub</a></button>
-        </div>
-        <div class="col-md-4">
-          <button class="btn btn-block" href="http://www.freecodecamp.com/rajiprinze" target="_blank"><a href="http://www.freecodecamp.com/rajiprinze" target="_blank"> Free Code Camp</a></button>
-        </div>
-      </div>
-    </div>
-    <a name="about"></a>
-    <div class="divAbout">
       <div class="row">
         <div class="col-md-4">
-          <h2>            TEALS Volunteering          </h2>
-          <p>
-            I am proud to be a TEALS Volunteer Teacher. It's my first year in this program. I currenlty am assigned at Everett High School. The Goal is to prep the students for the AP Exam next year! Learning more every day and it's a great experience.
-          </p>
+          <a href="https://www.linkedin.com/in/soundarya-rajendran-52646550" class="btn btn-block button-text" role="button" target="_blank"> <i class="fa fa-linkedin-square"></i> LinkedIn</a>
         </div>
         <div class="col-md-4">
-          <h2>            Why I code</h2>
-          <p>
-            "Computer science is the invisible magic that runs our world"... This is quote I read a long time ago and it definitely has provided me the inspiration to learn more about how technology is further improving this world.
-          </p>
+          <a href="https://github.com/rajiprinze" class="btn btn-block button-text" role="button" target="_blank"><i class="fa fa-github"></i>  Github</a>
         </div>
         <div class="col-md-4">
-          <h2>            Hobbies         </h2>
-          <p>
-            Here are some examples that I have worked on! You can also later check out my joint Blog and all other hobbies that I have starte on the side.
-          </p>
+          <a href="http://www.freecodecamp.com/rajiprinze" class="btn btn-block button-text" role="button" target="_blank"><i class="fa fa-fire"></i>  freeCodeCamp</a>
+        </div>
+      </div>
+  </section>
+  <!-- About -->
+  <a name="about"></a>
+  <section id="about" data-speed="4" data-type="background">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="well">
+            <h2 class="text-center"> TEALS Volunteering         </h2>
+            <p class="text-center">
+              I am proud to be a TEALS Volunteer Teacher. It's my first year in this program. I currenlty am assigned at Everett High School. The Goal is to prep the students for the AP Exam next year! Learning more every day and it's a great experience.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="well">
+            <h2 class="text-center">            Why I code</h2>
+            <p>
+              "Computer science is the invisible magic that runs our world"... This is quote I read a long time ago and it definitely has provided me the inspiration to learn more about how technology is further improving this world.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="well">
+            <h2>            Hobbies         </h2>
+            <p>
+              Here are some examples that I have worked on! You can also later check out my joint Blog and all other hobbies that I have starte on the side.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <a name="portfolio"></a>
-    <div class="jumbotron divPortfolio">
+  </section>
+  <!-- Porfolio-->
+  <a name="portfolio"></a>
+  <section id="portfolio" data-speed="2" data-type="background">
+    <div class="container">
       <div class="row">
         <h2 class="text-center">Projects Completed</h2>
       </div>
+      <div class="well">Project 1</div>
+      <div class="well">Project 2</div>
+      <div class="well">Project 2</div>
     </div>
-    <a name="contact"></a>
-    <div class="jumbotron divContact">
+    </div>
+  </section>
+  <!-- Contact -->
+  <a name="contact"></a>
+  <section id="contact" data-speed="2" data-type="background">
+    <div class="container">
       <h2 class="text-center">Contact me</h2>
+      <h4 class="text-center"> srajendran1992@outlook.com</h4>
       <div class="row">
-        <div class="col-md-4">
-          <button class="btn btn-block" href="https://www.linkedin.com/in/soundarya-rajendran-52646550" target="_blank"><a href="https://www.linkedin.com/in/soundarya-rajendran-52646550" target="_blank"> LinkedIn</a></button>
-        </div>
-        <div class="col-md-4">
-          <button class="btn btn-block" href="https://github.com/rajiprinze" target="_blank"><a href="https://github.com/rajiprinze" target="_blank"> GitHub</a></button>
-        </div>
-        <div class="col-md-4">
-          <button class="btn btn-block" href="http://www.freecodecamp.com/rajiprinze" target="_blank"><a href="http://www.freecodecamp.com/rajiprinze" target="_blank"> Free Code Camp</a></button>
+        <div class="row">
+          <div class="col-md-4" >
+            <a href="https://www.linkedin.com/in/soundarya-rajendran-52646550" class="btn btn-block button-text" role="button" target="_blank" align="right"> <i class="fa fa-linkedin-square"></i> LinkedIn</a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://github.com/rajiprinze" class="btn btn-block button-text" role="button" target="_blank"><i class="fa fa-github"></i>  Github</a>
+          </div>
+          <div class="col-md-4">
+            <a href="http://www.freecodecamp.com/rajiprinze" class="btn btn-block button-text" role="button" target="_blank"><i class="fa fa-fire"></i>  freeCodeCamp</a>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+  </section>
 </body>
 </html>
